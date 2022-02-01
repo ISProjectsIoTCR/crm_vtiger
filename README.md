@@ -1,16 +1,16 @@
-# Docker compose for Vtiger 7.2.0 CRM demo
+# Docker compose for Vtiger 7.2.0 CRM demo basado en el proyecto: https://github.com/elmolm/vtiger-demo.git
 
-[__Vtiger__ CRM](https://www.vtiger.com) is online software that helps 300000+ businesses grow sales, improve marketing ROI, and deliver great customer service.
+[__Vtiger__ CRM](https://www.vtiger.com) es un CRM para empresas muy completo. Mas amigable que Dolibarr para mi gusto.
 
-This project contains a small docker-compose file to easily launch a Vtiger 7.2.0 instance with an associated MariaDb database. 
+Este proyecto contiene un archivo docker-compose con la versión de Vtiger 7.2.0 y una base de datos MariaDb. 
 
-## Getting Started
+## INICIO RAPIDO
 
 ```
-1. Clone repository with `git clone https://github.com/elmolm/vtiger-demo.git`
-2. Switch in the cloned repository `cd vtiger-demo`
-3. Start Vtiger `docker compose up -d``
-4. Login http://localhost:8080/ with username: `admin` and password: `admin`
-5. To stop Vtiger `docker compose down`
+1. Clone el repositorio `git clone https://github.com/ISProjectsIoTCR/crm_vtiger.git`
+2. Entra a la carpeta clonada `cd vtiger-demo`
+3. Inicia Vtiger `docker compose up -d``
+4. Login default http://localhost:8080/ with username: `admin` and password: `admin`
+5. Detener Vtiger `docker compose down`
 ```
 
